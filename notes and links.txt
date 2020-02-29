@@ -1,0 +1,5 @@
+Notes on Handling Events for Many Elements
+https://www.kirupa.com/html5/handling_events_for_many_elements.htm
+
+querySelector 
+https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector 

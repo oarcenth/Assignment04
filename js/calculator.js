@@ -18,10 +18,9 @@ let $ = function(id){
 // }; 
 
 let calculate = function () {
-    $("result").value = eval(addedThings);  
+    $("result").value = eval(resultsBox);  
 }
-let one = $("one");
-one.addEventListener("click", enter)
+$("one").addEventListener("click", enter)
 $("two").addEventListener("click", enter)
 $("three").addEventListener("click", enter)
 $("four").addEventListener("click", enter)
@@ -40,7 +39,7 @@ $("equal").addEventListener("click", calculate)
 
 
 function enter(val) {
-  addedThings =($("result").value += val.target.value); 
+  resultsBox =($("result").value += val.target.value); 
     
      
 
