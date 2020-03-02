@@ -1,0 +1,7 @@
+input {
+    height: 50px;
+    width: 50px; 
+}
+input#result{
+    width: 200px; 
+}
